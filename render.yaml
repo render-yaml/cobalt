@@ -1,0 +1,19 @@
+# https://github.com/render-yaml/cobalt/
+services:
+- type: web
+  name: cobalt-web
+  runtime: image
+  image:
+    url: ghcr.io/wukko/cobalt:7
+  plan: free
+  envVars:
+  - key: WEB_URL
+    value: "http://localhost:9001"
+  - key: WEB_PORT
+    value: 9001
+  - key: API_URL
+    sync: false
+  - key: API_PORT
+    value: 9000
+  region: frankfurt
+version: "1"
