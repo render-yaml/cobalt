@@ -6,4 +6,4 @@ A simple **render.yaml** file that allows you to easily host [cobalt](//github.c
 3. Select `api` or `web` branch. <br> ![image](https://github.com/render-yaml/cobalt/assets/79092746/79683bf6-aa47-4e39-825b-87b7c85fb302)
 4. Wait...
 5. Click "managed resources" and `cobalt`, then open cobalt-*branch* (optional)
-6. Click on https://cobalt-api-(random stuff).onrender.com (optional)
+6. Click on `https://cobalt-api-(random stuff).onrender.com (optional)`
